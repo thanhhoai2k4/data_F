@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "e74cd00cba102542c0b9542bce5950ad",
+        "name": "face11.jpg",
+        "path": "file:D:/data_For_Train/images/face11.jpg",
+        "size": {
+            "width": 3000,
+            "height": 3000
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "n3-WHMnGc",
+            "type": "RECTANGLE",
+            "tags": [
+                "face"
+            ],
+            "boundingBox": {
+                "height": 679.8561151079136,
+                "width": 586.3308803640681,
+                "left": 292.26629682582063,
+                "top": 0
+            },
+            "points": [
+                {
+                    "x": 292.26629682582063,
+                    "y": 0
+                },
+                {
+                    "x": 878.5971771898887,
+                    "y": 0
+                },
+                {
+                    "x": 878.5971771898887,
+                    "y": 679.8561151079136
+                },
+                {
+                    "x": 292.26629682582063,
+                    "y": 679.8561151079136
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

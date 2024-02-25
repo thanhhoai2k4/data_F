@@ -1,0 +1,396 @@
+{
+    "name": "data_train",
+    "securityToken": "face_detection Token",
+    "sourceConnection": {
+        "name": "hhhdsd",
+        "description": "sasas",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMDNhY2MyMjc2ODM1ZDczYTQxY2Q2MWI3ZGMxM2Y0ODZmMDg2Y2QyNjNkZDUxOTliMGVmYzRiNzk4OWQxMTY5YjFjNDE0ZjIyNmEyNDI0Y2FlY2VkYzk4YjVlNTI0NjhmIiwiaXYiOiIzYTUyOThmOTRkNzk3OGNiNTMxZDBkODY1Mjk0MzRkZjUyOWZlODRiMzVjOTAwMjAifQ=="
+        },
+        "id": "YYodCr3KK"
+    },
+    "targetConnection": {
+        "name": "jdsahdhas",
+        "description": "sasas",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZjZlZjNkM2JmZjY5NDEwM2MzNmU2ODRhMTY5ZDMwYTY2Y2MwMjgyZGU1MjllODJjNWNkNzVhMDJmZmU4NzY2MzBmZTliNmJjOGJhYjJkMmY3NjNmNjIyZWNlMDVhOTZjIiwiaXYiOiJjMTA2NTg0ZWMxMzE0ZTcyNmQ5NTU5YWJiN2VkYTc4MDM4MGU4NTQ0YTc3OWViN2UifQ=="
+        },
+        "id": "67xbAFbv6"
+    },
+    "description": "adada",
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "face",
+            "color": "#5db300"
+        }
+    ],
+    "id": "BdX2Q04_6",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "csv",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTg0MWU2NWVmMTU4MDAxYzQzOWZkMTQ5MzRiZTRjYTEyNzFiNzA4OGNkZWRlMDhlN2ViZTE2OTI0YjM2OGE0MDc2MDQ2NGEyMDU0NTAwMGQ3MTRmYzFlZGQzZDY5Yjk3IiwiaXYiOiJjNDNkZWQ1NTU1YzYzNTU5Y2VkMzEzMmU2OGM1YTczMDlkNzAxYzQ2YzFjZTZiZjEifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "6457b527794688d27fff36ea4583b76e",
+    "assets": {
+        "e2a072bfa44721a80d8936b7c8920133": {
+            "format": "jpg",
+            "id": "e2a072bfa44721a80d8936b7c8920133",
+            "name": "face0.jpg",
+            "path": "file:D:/data_For_Train/images/face0.jpg",
+            "size": {
+                "width": 4000,
+                "height": 3000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4427e9eb3b7111511988e2c8b71d4537": {
+            "format": "jpg",
+            "id": "4427e9eb3b7111511988e2c8b71d4537",
+            "name": "face1.jpg",
+            "path": "file:D:/data_For_Train/images/face1.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "27873aad1a509b17ef817530e8312d77": {
+            "format": "jpg",
+            "id": "27873aad1a509b17ef817530e8312d77",
+            "name": "face10.jpg",
+            "path": "file:D:/data_For_Train/images/face10.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e74cd00cba102542c0b9542bce5950ad": {
+            "format": "jpg",
+            "id": "e74cd00cba102542c0b9542bce5950ad",
+            "name": "face11.jpg",
+            "path": "file:D:/data_For_Train/images/face11.jpg",
+            "size": {
+                "width": 3000,
+                "height": 3000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b73c196031720bbf753446170e165b54": {
+            "format": "jpg",
+            "id": "b73c196031720bbf753446170e165b54",
+            "name": "face12.jpg",
+            "path": "file:D:/data_For_Train/images/face12.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8da8e60c3bc0f251e7be94014c8e0b9f": {
+            "format": "jpg",
+            "id": "8da8e60c3bc0f251e7be94014c8e0b9f",
+            "name": "face13.jpg",
+            "path": "file:D:/data_For_Train/images/face13.jpg",
+            "size": {
+                "width": 3000,
+                "height": 3000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5fb37ccc5fd041f0ebad9f899b796b42": {
+            "format": "jpg",
+            "id": "5fb37ccc5fd041f0ebad9f899b796b42",
+            "name": "face14.jpg",
+            "path": "file:D:/data_For_Train/images/face14.jpg",
+            "size": {
+                "width": 960,
+                "height": 1280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0bf351d50478eacc1b867c5f7271e69d": {
+            "format": "jpg",
+            "id": "0bf351d50478eacc1b867c5f7271e69d",
+            "name": "face15.jpg",
+            "path": "file:D:/data_For_Train/images/face15.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2cbdf53de29025d2ce2ea8321fce1ea5": {
+            "format": "jpg",
+            "id": "2cbdf53de29025d2ce2ea8321fce1ea5",
+            "name": "face16.jpg",
+            "path": "file:D:/data_For_Train/images/face16.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b83a5ebe802a80b7f52f63f202ea714": {
+            "format": "jpg",
+            "id": "7b83a5ebe802a80b7f52f63f202ea714",
+            "name": "face17.jpg",
+            "path": "file:D:/data_For_Train/images/face17.jpg",
+            "size": {
+                "width": 960,
+                "height": 1280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "120ba1fd3e2f2f273c4c47bebaf74ad7": {
+            "format": "jpg",
+            "id": "120ba1fd3e2f2f273c4c47bebaf74ad7",
+            "name": "face18.jpg",
+            "path": "file:D:/data_For_Train/images/face18.jpg",
+            "size": {
+                "width": 3000,
+                "height": 3000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c71c36955304cdb9b65e754e36ed6aff": {
+            "format": "jpg",
+            "id": "c71c36955304cdb9b65e754e36ed6aff",
+            "name": "face19.jpg",
+            "path": "file:D:/data_For_Train/images/face19.jpg",
+            "size": {
+                "width": 4000,
+                "height": 3000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2e520f21ac735eaf10ab29c4f857a5c3": {
+            "format": "jpg",
+            "id": "2e520f21ac735eaf10ab29c4f857a5c3",
+            "name": "face2.jpg",
+            "path": "file:D:/data_For_Train/images/face2.jpg",
+            "size": {
+                "width": 960,
+                "height": 1280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "44b4dcf34f45d0090ccd2fc38e0f3656": {
+            "format": "jpg",
+            "id": "44b4dcf34f45d0090ccd2fc38e0f3656",
+            "name": "face20.jpg",
+            "path": "file:D:/data_For_Train/images/face20.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ceeb92048203875169d25d397681aa62": {
+            "format": "jpg",
+            "id": "ceeb92048203875169d25d397681aa62",
+            "name": "face21.jpg",
+            "path": "file:D:/data_For_Train/images/face21.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "691214fe5c339f652f7916e31541187a": {
+            "format": "jpg",
+            "id": "691214fe5c339f652f7916e31541187a",
+            "name": "face22.jpg",
+            "path": "file:D:/data_For_Train/images/face22.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bc6bd18653ceff210a83617190542fff": {
+            "format": "jpg",
+            "id": "bc6bd18653ceff210a83617190542fff",
+            "name": "face23.jpg",
+            "path": "file:D:/data_For_Train/images/face23.jpg",
+            "size": {
+                "width": 4000,
+                "height": 3000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "89816ba39d6b42cb729208dafe10804c": {
+            "format": "jpg",
+            "id": "89816ba39d6b42cb729208dafe10804c",
+            "name": "face24.jpg",
+            "path": "file:D:/data_For_Train/images/face24.jpg",
+            "size": {
+                "width": 4000,
+                "height": 3000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6c2e9d43048d9ff620f9957845ae3953": {
+            "format": "jpg",
+            "id": "6c2e9d43048d9ff620f9957845ae3953",
+            "name": "face26.jpg",
+            "path": "file:D:/data_For_Train/images/face26.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bae651704686b261b4276b260b905dec": {
+            "format": "jpg",
+            "id": "bae651704686b261b4276b260b905dec",
+            "name": "face27.jpg",
+            "path": "file:D:/data_For_Train/images/face27.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b0b6b30d2ef7967cb9de9eb41f6808d0": {
+            "format": "jpg",
+            "id": "b0b6b30d2ef7967cb9de9eb41f6808d0",
+            "name": "face28.jpg",
+            "path": "file:D:/data_For_Train/images/face28.jpg",
+            "size": {
+                "width": 3000,
+                "height": 3000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5aed55b50c708c9c049f9c025aaddc49": {
+            "format": "jpg",
+            "id": "5aed55b50c708c9c049f9c025aaddc49",
+            "name": "face29.jpg",
+            "path": "file:D:/data_For_Train/images/face29.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "33ffb2175935138b1e9a62829bf33aa7": {
+            "format": "jpg",
+            "id": "33ffb2175935138b1e9a62829bf33aa7",
+            "name": "face3.jpg",
+            "path": "file:D:/data_For_Train/images/face3.jpg",
+            "size": {
+                "width": 960,
+                "height": 1280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d6a98c3625411064b8e062a006c7d79": {
+            "format": "jpg",
+            "id": "4d6a98c3625411064b8e062a006c7d79",
+            "name": "face4.jpg",
+            "path": "file:D:/data_For_Train/images/face4.jpg",
+            "size": {
+                "width": 4000,
+                "height": 3000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cedf978a29baed110054872e2f2c27dc": {
+            "format": "jpg",
+            "id": "cedf978a29baed110054872e2f2c27dc",
+            "name": "face5.jpg",
+            "path": "file:D:/data_For_Train/images/face5.jpg",
+            "size": {
+                "width": 960,
+                "height": 1280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f59b3993cc66245c564259d51c22d0a6": {
+            "format": "jpg",
+            "id": "f59b3993cc66245c564259d51c22d0a6",
+            "name": "face6.jpg",
+            "path": "file:D:/data_For_Train/images/face6.jpg",
+            "size": {
+                "width": 3000,
+                "height": 3000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c90c93a017533c30d49f59bb65133eaf": {
+            "format": "jpg",
+            "id": "c90c93a017533c30d49f59bb65133eaf",
+            "name": "face7.jpg",
+            "path": "file:D:/data_For_Train/images/face7.jpg",
+            "size": {
+                "width": 960,
+                "height": 1280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1f14b1329b3cfb13456d45e0d5a101a0": {
+            "format": "jpg",
+            "id": "1f14b1329b3cfb13456d45e0d5a101a0",
+            "name": "face8.jpg",
+            "path": "file:D:/data_For_Train/images/face8.jpg",
+            "size": {
+                "width": 1920,
+                "height": 2560
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6457b527794688d27fff36ea4583b76e": {
+            "format": "jpg",
+            "id": "6457b527794688d27fff36ea4583b76e",
+            "name": "face9.jpg",
+            "path": "file:D:/data_For_Train/images/face9.jpg",
+            "size": {
+                "width": 960,
+                "height": 1280
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
